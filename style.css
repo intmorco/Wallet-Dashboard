@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #F0F0F0;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.user-info {
+    color: #333;
+}
+
+main {
+
+    padding: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.email {
+    color: #0047FF;
+    margin-bottom: 30px;
+}
+
+.wallets,
+.transactions {
+    margin-bottom: 30px;
+}
+
+.wallet-container {
+    display: flex;
+    gap: 20px;
+}
+
+.wallet {
+    background-color: #ddd;
+    padding: 20px;
+    gap: 78px;
+    border-radius: 15px;
+    color: white;
+    font-weight: 500;
+    width: 282px;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+}
+
+.wallet h3 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+    color: white;
+}
+
+.wallet h4 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17.33px;
+    text-align: left;
+    color: white;
+}
+
+.wallets h2 {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.11px;
+    text-align: left;
+
+}
+
+.visa1 {
+    background: linear-gradient(135deg, #D7816A, #BD4F6C);
+}
+
+.visa2 {
+    background: linear-gradient(135deg, #5F0A87, #A4508B);
+}
+
+.visa3 {
+    background: linear-gradient(135deg, #20BF55, #01BAEF);
+}
+
+.visa4 {
+    background: linear-gradient(135deg, #380036, #0CBABA);
+}
+
+.view-all {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #0047FF;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.transactions table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.transactions th,
+.transactions td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.transactions th {
+    background-color: #f7f7f7;
+    font-weight: 600;
+    font-size: 14px;
+    color: #B9C0D1;
+}
